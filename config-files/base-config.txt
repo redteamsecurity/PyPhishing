@@ -1,0 +1,45 @@
+# File is imported with user-entered configuration settings.
+
+# Set pretext (Choose from the following): Zixmail Secure Email, Secure Update Delivery, Microsoft Update, Google Support, 
+# FedEx Shipment Unsuccessful, iTunes, On-site Tech, CMS, IT Controls Document, Xcel, Test
+[Configs]
+scenario = Test
+
+# Set masked link
+# the first entry is no masked link
+link = 
+#link = https://microsoft.com/download/update.exe
+#link = Click Here!
+
+# Set User Encoding Scheme: Base64 encoded email, Randomized ID
+#encoding = Base64 encoded email
+encoding = Randomized ID
+encodinglength =
+
+
+# Set address file
+addressfile =
+
+# Set Advanced Settings
+# Format: [headersender, smtpsender, client, bodysender, url, verbose, attachment]
+# Headerfrom - What the email client sees (Ex. Matt <matt@google.com>),
+# SMTPFrom - What the email relay sees,
+# Client - Some scenarios have a client variable you can add that here,
+# BodySender - Some scenarios have a sender within the body variable, change that here,
+# URL - what you want the base phishing URL to be (base64 encoded email will be appended to it).
+# Verbose - if you want detailed sending information from SMTP server
+# Attachment - if you want to attach a file to an email
+headerfrom = IT Support <ITsupport@contoso.com>
+smtpfrom =
+client =
+bodysender =
+url = 
+verbose = False
+attachment = 
+
+# Set SMTP Credentials
+# [SMTP server, SMTP username, SMTP password]
+smtpserver = 
+smtpusername = 
+smtppass = 
+smtpport = 25
