@@ -8,7 +8,6 @@ from Emails import zixmailSecureEmail
 from Emails import googleSupport
 from Emails import fedEx
 from Emails import onsiteTech
-from Emails import cms
 from Emails import itControlsDoc
 from Emails import xcel
 from Emails import tempTest
@@ -88,8 +87,6 @@ def determine_pretext(pretext):
         pretext_file = fedEx
     elif 'On-site Tech' in pretext:
         pretext_file = onsiteTech
-    elif 'CMS' in pretext:
-        pretext_file = cms
     elif 'IT Controls Document' in pretext:
         pretext_file = itControlsDoc
     elif 'Xcel' in pretext:

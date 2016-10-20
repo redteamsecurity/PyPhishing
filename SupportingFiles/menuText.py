@@ -33,7 +33,6 @@ scenario_menu = ['Zixmail Secure Email',
                  'Google Support',
                  'FedEx Shipment Unsuccessful',
                  'On-site Tech',
-                 'CMS',
                  'IT Controls Document',
                  'Xcel',
                  'Test']
