@@ -9,7 +9,6 @@ Usage: python sendEmailsDriver.py or
        python sendEmailsDriver.py -c [config file]
 
         [Follow menu and be sure to add data to advanced settings]
-        If no credentials are added to the advanced settings, the application will not work.
 
 Description/Purpose of files:
     > sendEmailsDriver.py
