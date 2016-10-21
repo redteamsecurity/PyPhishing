@@ -1,5 +1,6 @@
 # Phishing-Application
 
+ - Please use this tool ethically and within legal means. The developer and anyone who contributes takes no liability for user's actions while using the tool. Be good.
 
 This application is used to send phishing emails to any number of users. The data is pulled from a user-supplied
 text document. The menu is fairly self explanatory. Be sure to test before delivering to a lot of users!
