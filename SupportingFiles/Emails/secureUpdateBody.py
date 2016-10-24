@@ -81,7 +81,7 @@ asking each employee to register their workstation.<br><br>
 
 To register your workstation, please visit the website below and enter your <b>Corporate</b> username and password.<br><br>
                  Visit this website:<br>
-<a href=3D\"{0}\">{1}</a>
+<a href=\"{0}\">{1}</a>
 
 <br>
 <br>Thanks,<br> {2} IT Department<br>Email: {3}
