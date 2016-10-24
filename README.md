@@ -1,5 +1,6 @@
 # Phishing-Application
 
+ - Please use this tool ethically and within legal means. The developer and anyone who contributes takes no liability for user's actions while using the tool. Be good.
 
 This application is used to send phishing emails to any number of users. The data is pulled from a user-supplied
 text document. The menu is fairly self explanatory. Be sure to test before delivering to a lot of users!
@@ -9,7 +10,6 @@ Usage: python sendEmailsDriver.py or
        python sendEmailsDriver.py -c [config file]
 
         [Follow menu and be sure to add data to advanced settings]
-        If no credentials are added to the advanced settings, the application will not work.
 
 Description/Purpose of files:
     > sendEmailsDriver.py
