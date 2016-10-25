@@ -12,7 +12,7 @@ text document. The menu is fairly self explanatory. Be sure to test before deliv
 
         [Follow menu and be sure to add data to advanced settings]
 
-Description/Purpose of files:
+# Description/Purpose of files:
     > pyPhishing.py
         - Used to drive the application, contains most of the menu logic and data manipulation.
 
