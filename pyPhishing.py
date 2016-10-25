@@ -62,7 +62,7 @@ def exportConfig():
             exportFile = open(argument_dict['exportfile'], 'w')
             exportFile.write('[Configs]\n')
             for key, value in argument_dict.items():
-                exportFile.write('\n' + key + ' = ' + value)
+                exportFile.write('\n' + str(key) + ' = ' + str(value))
             exportFile.close()
             print '\nFile exported successfully'
             break
