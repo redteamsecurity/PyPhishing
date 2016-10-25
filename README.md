@@ -16,14 +16,13 @@ text document. The menu is fairly self explanatory. Be sure to test before deliv
     > pyPhishing.py
         - Used to drive the application, contains most of the menu logic and data manipulation.
 
-    > buildMenu.py
-        - Creates an instance of the menu class each time the menu is called. A separate menu for advanced options
-          was created to fix some formatting.
-
     > SupportingFiles/
         -> deliverEmails.py
                 - The second most important file for this application. Contains the logic for sending emails and building
                 message bodies.
+        -> buildMenu.py
+                - Creates an instance of the menu class each time the menu is called. A separate menu for advanced options
+                was created to fix some formatting.
 
     > SupportingFiles/Emails/
         -> zixmailSecureEmail.py, microsoftUpdateBody.py, secureUpdateBody.py, etc.
