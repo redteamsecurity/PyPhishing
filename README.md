@@ -5,14 +5,14 @@
 This application is used to send phishing emails to any number of users. The data is pulled from a user-supplied
 text document. The menu is fairly self explanatory. Be sure to test before delivering to a lot of users!
 
-Usage: python sendEmailsDriver.py or
-       python sendEmailsDriver.py -h or
-       python sendEmailsDriver.py -c [config file]
+Usage: - python pyPhishing.py or
+       - python pyPhishing.py -h or
+       - python pyPhishing.py -c [config file]
 
         [Follow menu and be sure to add data to advanced settings]
 
 Description/Purpose of files:
-    > sendEmailsDriver.py
+    > pyPhishing.py
         - Used to drive the application, contains most of the menu logic and data manipulation.
 
     > buildMenu.py
