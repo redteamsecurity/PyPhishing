@@ -5,7 +5,7 @@
 This application is used to send phishing emails to any number of users. The data is pulled from a user-supplied
 text document. The menu is fairly self explanatory. Be sure to test before delivering to a lot of users!
 
-Usage: 
+# Usage: 
      > python pyPhishing.py or
      > python pyPhishing.py -h or
      > python pyPhishing.py -c [config file]
