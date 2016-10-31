@@ -104,7 +104,7 @@ def deliverance(variable_dict):
     smtpport = variable_dict['smtpport']
 
     #Should this be smtpSender???
-    sender = variable_dict['bodysender']
+    sender = variable_dict['smtpfrom']
 
     server = smtplib.SMTP(smtpServer, smtpport)
     if variable_dict['verbose'].lower() == 'true':
