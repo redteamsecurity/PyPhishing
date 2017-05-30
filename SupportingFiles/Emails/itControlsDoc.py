@@ -46,7 +46,7 @@ def build_body(variable_dict):
     msg['To'] = 'EMPADDR'
     msg['Subject'] = 'Can you look at this?'
     msg['Date'] = currentDate
-    msg['Message ID'] = msgid
+    msg['message-id'] = msgid
 
 
     plaintextBody ='''Hey,\n\nCan you look over some of the new IT controls I'm writing up and respond with any changes?\n\nThanks'''
