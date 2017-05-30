@@ -51,7 +51,7 @@ def build_body(variable_dict):
     msg['To'] = 'EMPADDR'
     msg['Subject'] = 'Security Updates'
     msg['Date'] = currentDate
-    msg['Message ID'] = msgid
+    msg['message-id'] = msgid
 
     #MaskedURL = URL_Placemarker  # change 'Secure Link' to desired mask or change line to "MaskedURL = URL_Placemarker" if no masked link desired.
     # Uncomment the following if you wish to send the message with the importance flag set.
