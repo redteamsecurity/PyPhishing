@@ -53,6 +53,7 @@ def build_body(variable_dict):
     msg['Subject'] = 'FW: Message from the Microsoft Security Team'
     msg['Date'] = currentDate
     msg['message-id'] = msgid
+    
 
     plaintextBody ="""All,
 
