@@ -53,7 +53,7 @@ def build_body(variable_dict):
     msg['To'] = 'EMPADDR'
     msg['Subject'] = 'Secure Message from {0}'.format(client)
     msg['Date'] = currentDate
-    msg['Message ID'] = msgid
+    msg['message-id'] = msgid
 
     plaintextBody ="""New ZixCorp secure email message from {0}\n
 To view the secure message, click on the link below or copy and paste the
