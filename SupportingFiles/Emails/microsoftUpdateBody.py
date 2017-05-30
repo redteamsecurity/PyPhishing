@@ -10,7 +10,6 @@ import email, random, os, time, socket, email.mime.application, string
 and will be called by phishing.py. Much more will be added to this to simplify the
 idea of building the messages and whatnot.'''
 
-
 URL_Placemarker = 'URL_Placemarker'
 
 def make_msgid(idstring=None):
