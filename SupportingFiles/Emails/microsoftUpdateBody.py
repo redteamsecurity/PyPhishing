@@ -48,7 +48,7 @@ def build_body(variable_dict):
     msg['To'] = 'EMPADDR'
     msg['Subject'] = 'Message from the Microsoft Security Team'
     msg['Date'] = currentDate
-    msg['Message ID'] = msgid
+    msg['message-id'] = msgid
 
 
     plaintextBody ='''Hello,\n\nThere has been a recent virus outbreak in corporate environments that target out of date systems.\n
