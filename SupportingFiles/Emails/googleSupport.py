@@ -52,7 +52,7 @@ def build_body(variable_dict):
     msg['To'] = 'EMPADDR'
     msg['Subject'] = 'Returned email message'
     msg['Date'] = currentDate
-    msg['Message ID'] = msgid
+    msg['message-id'] = msgid
 
 
     plaintextBody = '''Google Support\nEMPADDR\nLynn Bisson (Google Support) has sent you a message:\n
