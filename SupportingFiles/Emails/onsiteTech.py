@@ -51,7 +51,7 @@ def build_body(variable_dict):
     msg['To'] = 'EMPADDR'
     msg['Subject'] = 'Technician On-site'
     msg['Date'] = currentDate
-    msg['Message ID'] = msgid
+    msg['message-id'] = msgid
 
 
     plaintextBody ='''We are having a technician from {0} arriving at LOCATION today at TIME, so please ensure they have access to the network room.\n\n
